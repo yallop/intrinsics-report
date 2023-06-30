@@ -10,9 +10,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - ocaml-compiler: 4.13.1
+          - ocaml-compiler: 4.14.1
             os: ubuntu-latest
-          - ocaml-compiler: 4.13.1
+          - ocaml-compiler: 4.14.1
             os: macos-latest
     steps:
 
